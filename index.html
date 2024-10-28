@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+  <title>Hotel</title>
+</head>
+
+<body>
+  <input type="number" placeholder="Andares" name="NumeroAndares" id="NumeroAndares">
+  <br>
+  <input type="number" placeholder="Quartos por andar" name="NumeroQuartos" id="NumeroQuartos">
+  <button onclick="criarQuartos()" type="submit">Gerar Quartos</button>
+  <button>Visualizar reservas</button>
+  <br>
+  <br>
+  <div id="icones">
+  <button class="material-icons" type="button">edit</button>
+  <button onclick="cor()" class="material-icons" type="button">palette</button>
+  <button class="material-icons" type="button">save</button>
+  <button class="material-icons" type="button">delete</button>
+  </div>
+  <br>
+  <br>
+  <div id="criarCor"></div>
+  <br>
+  <div id="andar">
+    <div id="quarto"></div>
+  </div>
+
+</body>
+
+</html>
